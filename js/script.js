@@ -400,16 +400,8 @@ L.easyButton('fa-arrow-down', getReport).addTo(map);
 
 
 
-const mapElement = document.querySelector('#map');
-const toggleLasso = document.querySelector('#toggleLasso');
-const contain = document.querySelector('#contain');
-const intersect = document.querySelector('#intersect');
-const lassoEnabled = document.querySelector('#lassoEnabled');
-const lassoResult = document.querySelector('#lassoResult');
 
 const lassoControl = L.control.lasso().addTo(map);
-
-
 
 
 function resetSelectedState() {
