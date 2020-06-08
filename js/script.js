@@ -179,7 +179,7 @@ function onEachFeature(feature, layer) {
         ' <h3>Pand (BAG)</h3> '
         + '<br><strong>ID:</strong> ' + feature.properties.identificatie.toString() 
         + '<br><strong>Bouwjaar:</strong> ' + feature.properties.bouwjaar.toString()
-        + '<br><strong>Gebruiksdoel:</strong> ' + feature.properties.gebruiksdoel.String()
+        + '<br><strong>Gebruiksdoel:</strong> ' + String(feature.properties.gebruiksdoel)
         + '<br><strong>Status:</strong> ' + feature.properties.status.toString()
         + '<br><strong>Aantal verblijfsobjecten:</strong> ' + feature.properties.aantal_verblijfsobjecten.toString()
     );
